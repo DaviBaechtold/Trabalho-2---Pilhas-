@@ -1,3 +1,19 @@
+//Davi Baechtold Campos
+//Trabalho 2 - Pilhas
+
+/*
+Sua  tarefa  será  construir  um  código  capaz de  somar,  item  a  item,  todos os  inteiros  entre  1  e 1.000.000. Existe, pelo menos uma fórmula matemática que pode ser usada para validar o resultado. 
+
+Contudo,  você  deverá  criar  uma  pilha,  armazenar  este  inteiros  nesta  pilha,  depois  percorrer    pilha somando estes valores. A tarefa é para exercitar o uso de pilhas, não da matemática.  
+Seu  objetivo  será  medir  o  tempo  para  inserção  de  1.000.000  milhão  de  inteiros  em  uma estrutura  de  dados  e  o  tempo  para  percorrer  e  somar  1.000.000  de  inteiros  em  uma  determinada 
+estrutura de dados, e o tempo para garantir que um determinado inteiro já está na pilha. Finalmente você deverá medir estes tempos percorrendo a pilha em dois sentidos. De cima para baixo e de baixo 
+para cima. 
+
+Seu resultado será a média dos tempos gastos para as operações citadas acima em, no mímino 50 operações de cada tipo. As saídas apresentadas devem seguir o seguinte padrão: operação: tempo conforme pode ser visto no exemplo a seguir:  
+
+Preenchimento da Pilha: 1.234s 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
